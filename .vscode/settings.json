@@ -1,0 +1,31 @@
+{
+    "livePreview.defaultPreviewPath": "/2.html",
+    "editor.acceptSuggestionOnEnter": "on",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#641997",
+        "activityBar.background": "#641997",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#000000",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#641997",
+        "statusBar.background": "#47126b",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#641997",
+        "statusBarItem.remoteBackground": "#47126b",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#47126b",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#47126b99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#47126b",
+    "cSpell.words": [
+        "browserconfig",
+        "centralised",
+        "doyouwannagooutwithme",
+        "windowmanager",
+        "Yeeeyyyy"
+    ]
+}
