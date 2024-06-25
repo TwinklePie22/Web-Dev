@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Two Numbers</title>
+    <script>
+        function addNumbers() {
+            // Get the values from the text boxes
+            var num1 = document.getElementById("number1").value;
+            var num2 = document.getElementById("number2").value;
+
+            // Convert the values to numbers
+            var number1 = parseFloat(num1);
+            var number2 = parseFloat(num2);
+
+            // Add the two numbers
+            var sum = number1 + number2;
+
+            // Print the result to the console
+            console.log("The sum of " + number1 + " and " + number2 + " is: " + sum);
+        }
+    </script>
+</head>
+<body>
+    <h1>Add Two Numbers</h1>
+    <label for="number1">Number 1:</label>
+    <input type="text" id="number1" name="number1">
+    <br><br>
+    <label for="number2">Number 2:</label>
+    <input type="text" id="number2" name="number2">
+    <br><br>
+    <button onclick="addNumbers()">Add</button>
+</body>
+</html>

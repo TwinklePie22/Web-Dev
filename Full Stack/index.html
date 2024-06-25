@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Addition Program</title>
+</head>
+<body>
+    <label for="num1">Enter first number:</label>
+    <input type="text" id="num1"><br><br>
+    <label for="num2">Enter second number:</label>
+    <input type="text" id="num2"><br><br>
+    <button onclick="addNumbers()">Add</button>
+
+    <script>
+        function addNumbers() {
+            // Get the values from the text boxes
+            let num1 = parseFloat(document.getElementById("num1").value);
+            let num2 = parseFloat(document.getElementById("num2").value);
+
+            // Check if the input is valid
+            if (isNaN(num1) || isNaN(num2)) {
+                console.log("Invalid input. Please enter numbers.");
+                return;
+            }
+
+            // Add the numbers
+            let sum = num1 + num2;
+
+            // Print the result to the console
+            console.log("The sum is: " + sum);
+        }
+    </script>
+</body>
+</html>
